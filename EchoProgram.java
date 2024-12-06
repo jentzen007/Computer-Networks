@@ -74,6 +74,7 @@ public class EchoProgram {
                     System.out.println("Conflicting data! :(");
                 } 
             }
+            get.close();
             
          } catch(Exception e) {
             e.printStackTrace();
